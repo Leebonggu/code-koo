@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://cdn.rawgit.com/singihae/Webfonts/master/style.css);
+
+
+
+header {
+  font-size: 47px;
+  text-align: center;
+  border-bottom:3px solid black;
+
+}
+header a {
+  text-decoration: none;
+  color:black;
+}
+
+#topMenu{
+  box-sizing: border-box;
+  height: 30px;
+  width: 780px;
+  margin :auto;
+
+}
+
+#topMenu ul li {
+  list-style: none;
+  color: white;
+  background-color: white;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 75px;
+}
+
+#topMenu .menuList {
+  text-decoration:none;
+  color:black;
+  display: block;
+  font-size:20px;
+  font-weight: bold;
+  font-family:'Hanna', serif;
+}
+
+#topMenu .menuList:hover{
+  color:white;
+  background-color: black;
+}
+
+#profile {
+  text-decoration: none;
+  margin :auto;
+}
+#mainStory {
+  padding: 50px;
+  text-align: center;
+  text-justify: auto;
+  font-family::'BM JUA','배달의민족 주아',sans-serif;
+}
+#mainStory .introImage{
+  padding: 10px;
+}
