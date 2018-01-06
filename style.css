@@ -10,7 +10,9 @@ header a {
   text-decoration: none;
   color:black;
 }
-
+h1{
+  margin-bottom: 0;
+}
 #topMenu{
   box-sizing: border-box;
   height: 30px;
@@ -52,6 +54,7 @@ header a {
   font-family:'Hanna', Sans-serif;
 }
 #mainStory .introImage{
+  margin-bottom: 100px;
   padding: 10px;
 }
 #mainChat .chat{
@@ -64,7 +67,7 @@ header a {
 }
 #profile .profileFace{
   margin-top: 50px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   margin-left: 100px;
   float: left;
   width:30%;
