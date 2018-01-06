@@ -1,7 +1,4 @@
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
-@import url(http://cdn.rawgit.com/singihae/Webfonts/master/style.css);
-
-
 
 header {
   font-size: 47px;
@@ -31,7 +28,6 @@ header a {
   text-align: center;
   vertical-align: middle;
   margin-left: 75px;
-  font-family:'Hanna', serif;
 }
 
 #topMenu .menuList {
@@ -40,7 +36,7 @@ header a {
   display: block;
   font-size:20px;
   font-weight: bold;
-  font-family:'Hanna', serif;
+  font-family:'Hanna', Sans-serif;
 }
 
 #topMenu .menuList:hover{
@@ -48,19 +44,36 @@ header a {
   background-color: black;
 }
 
-#profile {
-  text-decoration: none;
-  margin :auto;
-}
+
 #mainStory {
   padding: 50px;
   text-align: center;
   text-justify: auto;
-  font-family:'Hanna', serif;
+  font-family:'Hanna', Sans-serif;
 }
 #mainStory .introImage{
   padding: 10px;
 }
 #mainChat .chat{
   float: left;
+}
+#profile {
+  text-align: center;
+  margin-top: 30px;
+  margin-left:130px;
+}
+#profile .profileFace{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  float: left;
+  width:30%;
+  height:30%;
+}
+#profile .profileText{
+  margin-right: 250px;
+  font-family:'Hanna', Sans-serif;
+}
+#profile .profileText a {
+  text-decoration: none;
 }
