@@ -31,6 +31,7 @@ header a {
   text-align: center;
   vertical-align: middle;
   margin-left: 75px;
+  font-family:'Hanna', serif;
 }
 
 #topMenu .menuList {
@@ -59,4 +60,7 @@ header a {
 }
 #mainStory .introImage{
   padding: 10px;
+}
+#mainChat .chat{
+  float: left;
 }
