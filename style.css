@@ -62,19 +62,20 @@ h1{
 }
 #profile {
   text-align: center;
-  margin-top: 30px;
-  margin-left:130px;
+  margin-top: 300px;
+  margin-left:137px;
 }
 #profile .profileFace{
-  margin-top: 50px;
-  /* margin-bottom: 100px; */
+  margin-top:20px;
+  margin-bottom: 100px;
   margin-left: 100px;
   float: left;
-  width:30%;
-  height:30%;
+  width:35%;
+  height:35%;
 }
 #profile .profileText{
   margin-right: 250px;
+  font-size: 27px;
   font-family:'Hanna', Sans-serif;
 }
 #profile .profileText a {
